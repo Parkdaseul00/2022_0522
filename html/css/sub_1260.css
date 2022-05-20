@@ -1,0 +1,1139 @@
+@charset "uft-8";
+
+
+
+
+/*1260 서브메인*/
+
+
+
+@media (min-width:1260px ) {
+
+
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    ul,
+    li,
+    ol {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    a {
+        text-decoration: none;
+        cursor: pointer;
+        color: lightgray;
+    }
+
+
+    #wrap {
+        width: 100%;
+        height: auto;
+        margin: 0 auto;
+        display: flex;
+        text-align:
+            center;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #sub_banner {
+        width: 100%;
+        height: 480px;
+        background-image: url(../img/sub_top.jpg);
+        background-size: cover;
+        background-position: 30% 40%;
+        display: flex;
+        flex-flow: wrap;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    #sub_banner>h1 {
+        color: #eee;
+        font-size: 60px;
+        font-family: Montserrat;
+        font-weight: bold;
+        font-size:50px;
+        margin:30px 0 0px 0px;
+    }
+
+    #sub_banner>p {
+        color: #eee;
+        font-family: Montserrat;
+    }
+
+
+
+
+
+    #main_box {
+        width: 70%;
+        height: 4800px;
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    #sub_main {
+        width: 65%;
+        height: 4800px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    section {
+        width: 98%;
+        height: 750px;
+        border: 1px solid lightgray;
+        font-family: Montserrat;
+        margin: 60px 0 0 0px;
+    }
+
+
+
+    /*main*/
+
+    .main_img {
+        width: 100%;
+        height: 60%;
+    }
+
+    .main_img>a>img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .main_text {
+        width: 100%;
+        height: 30%;
+        display: flex;
+        border-bottom: 1px solid lightgray;
+        flex-flow: row wrap;
+        padding: 30px;
+        text-align: left;
+    }
+
+
+    .main_text>span {
+        color: #666;
+        font-weight: bold;
+    }
+
+    .main_text>h2 {
+        color: #0c4e4a;
+        font-size: 25px;
+    }
+
+    .main_text>h2:hover {
+        color: gold;
+    }
+
+    .main_text>p {
+        color: #666;
+        font-size: 15px;
+    }
+
+
+    .main_check {
+        width: 100%;
+        height: 10%;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+    }
+
+    .motion0 {
+        width: 33.3%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-left: 1px solid lightgray;
+    }
+
+    .motion0>a>p {
+        font-size: 16px;
+        font-weight: bold;
+        color:#666;
+    }
+
+    .motion0>a>p:hover {
+        color: #0c4e4a;
+    }
+
+
+    /*비디오*/
+
+    video {
+        width: 100%;
+        height: 100%;
+    }
+
+
+
+    /*이미지 6컷분할*/
+
+
+    .img_6cut {
+        width: 98%;
+        height: 740px;
+        border: 1px solid lightgray;
+        font-family: Montserrat;
+        margin: 60px 0 0 0px;
+    }
+
+    .main_img2 {
+        width: 100%;
+        height: auto;
+    }
+
+    .imgcut_box {
+        width: 100%;
+        height: 60%;
+        display: flex;
+        flex-flow: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .img_cut {
+        width: 33.3%;
+        height: 50%;
+    }
+
+    .img_cut>a>img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .img_cut>a>img:hover {
+        opacity: 0.8;
+    }
+
+    .main_check2 {
+        width: 100%;
+        height: 72px;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+    }
+
+    .cut_text {
+        width: 100%;
+        height: 224px;
+        display: flex;
+        border-bottom: 1px solid lightgray;
+        flex-flow: row wrap;
+        padding: 30px;
+        text-align: left;
+    }
+
+
+    .cut_text >span {
+        color: #666;
+        font-weight: bold;
+    }
+
+    .cut_text >h2 {
+        color: #0c4e4a;
+        font-size: 25px;
+    }
+
+    .cut_text >h2:hover {
+        color: gold;
+    }
+
+    .cut_text >p {
+        color: #666;
+        font-size: 15px;
+    }
+
+
+    .main_check {
+        width: 100%;
+        height: 10%;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+    }
+
+    .motion0 {
+        width: 33.3%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-left: 1px solid lightgray;
+    }
+
+    .motion0>a>p {
+        font-size: 16px;
+        font-weight: bold;
+    }
+
+    .motion0>a:hover {
+        color: #0c4e4a;
+    }
+    
+
+
+
+
+
+    /*메인-텍스트박스*/
+
+    .section1 {
+        width: 98%;
+        height: 475px;
+        border: 1px solid lightgray;
+    }
+
+    .main_text1 {
+        width: 100%;
+        height: 200px;
+        background-color: #0c4e4a;
+        padding: 20px;
+        border-bottom: 1px solid lightgray;
+    }
+
+    .main_text1 > .text_p {
+        font-size: 27px;
+        color: #eee;
+    }
+
+    .main_text1> .text_p >span {
+        font-size: 50px;
+        color: yellow;
+        font-weight: bold;
+    }
+
+    .main_text2 {
+        width: 100%;
+        height: 200px;
+        display: flex;
+        flex-flow: row wrap;
+        padding: 30px;
+        text-align: left;
+    }
+
+    .main_text2>span {
+        color: #666;
+        font-weight: bold;
+    }
+
+    .main_text2>h2 {
+        color: #0c4e4a;
+        font-size: 25px;
+    }
+
+    .main_text2>h2:hover {
+        color: gold;
+    }
+
+    .main_text2>p {
+        color: #666;
+        font-size: 15px;
+    }
+
+    .main_check1 {
+        width: 100%;
+        height: 75px;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .motion1 {
+        width: 33.3%;
+        height: 98%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-top: 1px solid lightgray;
+        border-left: 1px solid lightgray;
+    }
+
+    .motion1>a>p {
+        font-size: 16px;
+        font-weight: bold;
+        color:#666;
+    }
+
+    .motion1> a > p:hover {
+        color: #0c4e4a;
+    }
+
+    /*페이지버튼*/
+
+
+    .page {
+        width: 800px;
+        height: 40px;
+        display: flex;
+        justify-content: center;
+        font-family: Montserrat;
+        font-weight: bold;
+        margin: 50px 0 0 0px;
+    }
+
+    .page>ul {
+        display: flex;
+    }
+
+    .page>ul>li>a {
+        float: left;
+        display: flex;
+        flex-flow: wrap;
+        border: 1px solid lightgray;
+        padding: 10px 20px;
+        line-height: 1;
+        color:gray;
+    }
+
+
+    .page>ul>li>a:hover {
+        background-color: lightgray;
+    }
+
+    .page>ul>li:nth-of-type(2) a {background-color:#666; color:#eee;}
+
+
+
+
+
+    /*서브시작*/
+
+    #sub {
+        width: 25%;
+        height: 3600px;
+
+        font-family: Montserrat;
+        display: flex;
+        flex-flow: wrap;
+        justify-content: space-around;
+    }
+
+
+    /*서치*/
+
+    .search {
+        width: 100%;
+        height: 52px;
+        position: relative;
+        background-color: white;
+        margin: 125px 0 0 0px;
+        border: 1px solid lightgray;
+        line-height: 50px;
+    }
+
+    .input1 {
+        font-family: Montserrat;
+        font-weight: bold;
+        width: 80%;
+        height: 45px;
+        border: 0;
+    }
+
+    .search_btn {
+        border: 0;
+        background-color: white;
+        width: 40px;
+        height: 30px;
+    }
+
+    .search_btn>i {
+        color: #666;
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .search_btn>i:hover {
+        color: gold;
+    }
+
+    /* 서브2 about_me*/
+
+    .about_me {
+        width: 100%;
+        height: 370px;
+        display: flex;
+        flex-flow:wrap;
+        justify-content: center;
+    }
+
+    .about_me>h4 {
+        font-size: 20px;
+        display: flex;
+        flex-basis: 100%;
+        margin: 10px 0px;
+        font-size: 15px;
+    }
+
+    .about_me>h4::after {
+        content: "";
+        flex-grow: 1;
+        background: #f68861;
+        height: 1px;
+        font-size: 0px;
+        line-height: 1px;
+        margin: 10px 0 0 5px;
+    }
+
+    .about_img {
+        width: 100%;
+        height: 200px;
+    }
+
+    .about_img>a>img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .about_text {
+        width: 100%;
+        height: 150px;
+        text-align: left;
+        padding: 20px;
+    }
+
+    .about_text>p {
+        font-size: 14px;
+        font-weight: 600;
+        color: #666;
+    }
+
+    .about_text>button {
+        padding: 5px 10px;
+        background: black;
+        color: #eee;
+        margin: 10px 0 0 0px;
+    }
+
+    .about_text>button:hover {
+        background-color: lightgray;
+        color: black;
+    }
+
+
+    /*서브3 follow sns*/
+
+
+    .follow {
+        width: 100%;
+        height: 100px;
+    }
+
+    .follow>h4 {
+        font-size: 20px;
+        display: flex;
+        flex-basis: 100%;
+        margin: 10px 0px;
+        font-size: 15px;
+    }
+
+    .follow>h4::after {
+        content: "";
+        flex-grow: 1;
+        background: #f68861;
+        height: 1px;
+        font-size: 0px;
+        line-height: 1px;
+        margin: 10px 0 0 5px;
+    }
+
+    .sns_icons>ul {
+        display: flex;
+        flex-flow: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .sns_icons>ul>li>a {
+        font-size: 20px;
+        color: lightgray;
+        border: 0;
+        padding:5px 10px;
+        line-height: 80px;
+        margin:3px;
+    }
+
+    .sns_icons {width:100%; height:80px;}
+
+    .sns_icons>ul>li>a:hover {
+        border-radius: 30px;
+        transition: all 0.3s;
+    }
+
+    .facebook_icon>a {
+        background-color: #385998;
+    }
+
+    .twitter_icon>a {
+        background-color: #08a0e9;
+    }
+
+    .google_icon>a {
+        background-color: red;
+    }
+
+    .dribbble_icon>a {
+        background-color: hotpink;
+    }
+
+    .instagram_icon>a {
+        background-color: #663399;
+    }
+
+
+
+    /*서브4 categories*/
+
+    .categories {
+        width: 100%;
+        height: 450px;
+    }
+
+    .categories>h4 {
+        font-size: 20px;
+        display: flex;
+        flex-basis: 100%;
+        margin: 10px 0px;
+        font-size: 15px;
+    }
+
+    .categories>h4::after {
+        content: "";
+        flex-grow: 1;
+        background: #f68861;
+        height: 1px;
+        font-size: 0px;
+        line-height: 1px;
+        margin: 10px 0 0 5px;
+    }
+
+    .categories_caption {
+        width: 100%;
+        height: 400px;
+    }
+
+    .categories_caption>ul {
+        width: 100%;
+        height: 400px;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        padding: 10px;
+    }
+
+    .categories_caption > ul > li > a {color:#666;}
+
+    .categories_caption>ul>li:nth-of-type(1n) {
+        width: 80%;
+        border-bottom: 0.5px solid lightgray;
+        text-align: left;
+        font-weight: bold;
+        font-size: 13px;
+    }
+
+    .categories_caption>ul>li:nth-of-type(2n) {
+        width: 20%;
+        text-align: right;
+        font-weight: bold;
+        color:#666;
+    }
+
+    .categories_caption>ul>li>a:hover {
+        color: #0c4e4a;
+    }
+
+
+
+    /*서브5 article*/
+
+    article {
+        width: 100%;
+        height: auto;
+        background-color: gold;
+        padding: 40px;
+    }
+
+    article>span {
+        font-size: 60px;
+        color: #0c4e4a;
+    }
+
+    article>p {
+        font-size: 20px;
+        color: #0c4e4a;
+        padding: 10px 25px;
+        font-weight: bold;
+    }
+
+    .article_btn > a {color:#0c4e4a}
+    .article_btn > a:hover {color:#666;}
+
+    article>.article_btn {
+        padding: 5px 10px;
+        color: #0c4e4a;
+        margin: 1%;
+        border: 2px solid #0c4e4a;
+        background-color: gold;
+        font-weight: bold;
+    }
+
+    article>.article_btn:hover {
+        background-color: #0c4e4a;
+        color: lightgray;
+    }
+
+
+
+    /*서브6 popular*/
+
+    .popular {
+        width: 100%;
+        height: 480px;
+        display: flex;
+        flex-flow: wrap;
+    }
+
+    .popular>h4 {
+        font-size: 20px;
+        display: flex;
+        flex-basis: 100%;
+        margin: 10px 0px;
+        font-size: 15px;
+    }
+
+    .popular>h4::after {
+        content: "";
+        flex-grow: 1;
+        background: #f68861;
+        height: 1px;
+        font-size: 0px;
+        line-height: 1px;
+        margin: 10px 0 0 5px;
+    }
+
+    .team_popular {
+        width: 100%;
+        height: 450px;
+    }
+
+    .pop_option {
+        width: 100%;
+        height: 25%;
+        display: flex;
+    }
+
+    .pop_option>img {
+        width: 50%;
+        height: 100%;
+        padding: 5px;
+    }
+
+
+    .ptext1 {
+        width: 50%;
+        height: 25%;
+        text-align: left;
+        padding: 15px;
+        font-weight: bold;
+    }
+
+    .ptext1>p>a {
+        color: #666;
+        font-size: 14px;
+    }
+
+    .ptext1>p>a:hover {
+        color: gold;
+    }
+
+    .ptext1>span {
+        color: lightgray;
+        font-size: 10px;
+        margin: 0;
+    }
+
+
+
+    /*서브6 tag*/
+
+
+    .tag_cloud {
+        width: 100%;
+        height: 250px;
+    }
+
+    .tag_cloud>h4 {
+        font-size: 20px;
+        display: flex;
+        flex-basis: 100%;
+        margin: 10px 0px;
+        font-size: 15px;
+    }
+
+    .tag_cloud>h4::after {
+        content: "";
+        flex-grow: 1;
+        background: #f68861;
+        height: 1px;
+        font-size: 0px;
+        line-height: 1px;
+        margin: 10px 0 0 5px;
+    }
+
+    .tag_cloud>ul {
+        display: flex;
+        flex-flow: wrap;
+        padding: 10px;
+    }
+
+    .tag_cloud > ul > li > a {color:#666;}
+
+    .tag_cloud>ul>li>a {
+        font-size: 13px;
+        font-weight: bold;
+        border: 1px solid lightgray;
+        padding: 3px 15px;
+        margin: 5px;
+        display: flex;
+    }
+
+    .tag_cloud>ul>li>a:hover {
+        background: black;
+    }
+
+
+
+    /*서브7 archive*/
+
+    .archive {
+        width: 100%;
+        height: 420px;
+    }
+
+    .archive>h4 {
+        font-size: 20px;
+        display: flex;
+        flex-basis: 100%;
+        margin: 10px 0px;
+        font-size: 15px;
+    }
+
+    .archive>h4::after {
+        content: "";
+        flex-grow: 1;
+        background: #f68861;
+        height: 1px;
+        font-size: 0px;
+        line-height: 1px;
+        margin: 10px 0 0 5px;
+    }
+
+    .archive_chart {
+        width: 100%;
+        height: 400px;
+    }
+
+    .archive_chart>ul {
+        width: 100%;
+        height: 400px;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        padding: 10px;
+    }
+
+    .archive_chart > ul > li > a {color:#666;}
+
+    .archive_chart>ul>li:nth-of-type(1n) {
+        width: 80%;
+        border-bottom: 0.5px solid lightgray;
+        text-align: left;
+        font-weight: bold;
+        font-size: 13px;
+    }
+
+    .archive_chart>ul>li:nth-of-type(2n) {
+        width: 20%;
+        text-align: right;
+        font-weight: bold;
+    }
+
+    .archive_chart>ul>li>a:hover {
+        color: #0c4e4a;
+    }
+
+
+
+    /*서브8 letter*/
+
+    .letter {
+        width: 100%;
+        height: 100px;
+    }
+
+    .letter>h4 {
+        font-size: 20px;
+        display: flex;
+        flex-basis: 100%;
+        margin: 10px 0px;
+        font-size: 15px;
+    }
+
+    .letter>h4::after {
+        content: "";
+        flex-grow: 1;
+        background: #f68861;
+        height: 1px;
+        font-size: 0px;
+        line-height: 1px;
+        margin: 10px 0 0 5px;
+    }
+
+    .letter_inputbox {
+        width: 100%;
+        height: 47px;
+        border: 1px solid lightgray;
+        background-color: white;
+    }
+
+    .input2 {
+        font-family: Montserrat;
+        font-weight: bold;
+        width: 80%;
+        height: 45px;
+        border: 0;
+    }
+
+    .letter_btn {
+        border: 0;
+        background-color: white;
+        width: 40px;
+        height: 30px;
+    }
+
+    .letter_btn>i {
+        color: #666;
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .letter_btn>i:hover {
+        color: gold;
+        transition: all 0.3s;
+    }
+
+
+
+    /*서브9 instagram*/
+
+    .instagram {
+        width: 100%;
+        height: 280px;
+    }
+
+    .instagram>h4 {
+        font-size: 20px;
+        display: flex;
+        flex-basis: 100%;
+        margin: 10px 0px;
+        font-size: 15px;
+    }
+
+    .instagram>h4::after {
+        content: "";
+        flex-grow: 1;
+        background: #f68861;
+        height: 1px;
+        font-size: 0px;
+        line-height: 1px;
+        margin: 10px 0 0 5px;
+    }
+
+    .imsta_box {
+        width: 100%;
+        height: 250px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-content: center;
+    }
+
+    .small {
+        width: 30%;
+        height: 90px;
+        margin: 1%;
+        background-image: url(../img/insta1.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .small2 {
+        width: 30%;
+        height: 90px;
+        margin: 1%;
+        background-image: url(../img/insta2.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .small3 {
+        width: 30%;
+        height: 90px;
+        margin: 1%;
+        background-image: url(../img/insta3.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .small4 {
+        width: 30%;
+        height: 90px;
+        margin: 1%;
+        background-image: url(../img/insta4.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .small5 {
+        width: 30%;
+        height: 90px;
+        margin: 1%;
+        background-image: url(../img/insta5.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .small6 {
+        width: 30%;
+        height: 90px;
+        margin: 1%;
+        background-image: url(../img/insta6.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .small>.hover_box {
+        width: 100%;
+        height: 100%;
+        background-color: #000;
+        opacity: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .small2>.hover_box {
+        width: 100%;
+        height: 100%;
+        background-color: #000;
+        opacity: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .small3>.hover_box {
+        width: 100%;
+        height: 100%;
+        background-color: #000;
+        opacity: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .small4>.hover_box {
+        width: 100%;
+        height: 100%;
+        background-color: #000;
+        opacity: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .small5>.hover_box {
+        width: 100%;
+        height: 100%;
+        background-color: #000;
+        opacity: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .small6>.hover_box {
+        width: 100%;
+        height: 100%;
+        background-color: #000;
+        opacity: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .arrow {
+        width: 45%;
+        height: 45%;
+    }
+
+    .small:hover .hover_box {
+        opacity: 0.5;
+        transition: all 0.5s;
+        cursor: pointer;
+    }
+
+    .small2:hover .hover_box {
+        opacity: 0.5;
+        transition: all 0.5s;
+        cursor: pointer;
+    }
+
+    .small3:hover .hover_box {
+        opacity: 0.5;
+        transition: all 0.5s;
+        cursor: pointer;
+    }
+
+    .small4:hover .hover_box {
+        opacity: 0.5;
+        transition: all 0.5s;
+        cursor: pointer;
+    }
+
+    .small5:hover .hover_box {
+        opacity: 0.5;
+        transition: all 0.5s;
+        cursor: pointer;
+    }
+
+    .small6:hover .hover_box {
+        opacity: 0.5;
+        transition: all 0.5s;
+        cursor: pointer;
+    }
+
+
+}
